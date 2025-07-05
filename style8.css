@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Blog post container */
+.blog-post {
+  width: 60%;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Title and Subtitle */
+h1 {
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: justify;
+  color: #444;
+}
+
+/* First letter larger */
+p::first-letter {
+  font-size: 2em;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* First line styled differently */
+p::first-line {
+  font-weight: bold;
+  color: #222;
+}
+
+/* Blockquote styling */
+blockquote {
+  font-style: italic;
+  font-size: 20px;
+  padding: 15px;
+  margin: 20px 0;
+  background: #eef2f7;
+  border-left: 5px solid #007bff;
+  color: #333;
+}

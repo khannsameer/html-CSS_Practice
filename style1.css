@@ -1,0 +1,30 @@
+ul {
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home:hover {
+  color: blueviolet;
+  font-size: 25px;
+  transition: 0.5s ease-in-out;
+}
+
+.about:hover {
+  color: cadetblue;
+  font-size: 25px;
+  transition: 0.5s ease-in-out;
+}
+
+.contact:hover {
+  color: chocolate;
+  font-size: 25px;
+  transition: 0.5s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+}

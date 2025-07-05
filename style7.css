@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Table container */
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Pricing columns */
+.plan {
+  width: 280px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+/* Background colors for different plans */
+.basic {
+  background-color: #e3f2fd;
+} /* Light blue */
+.standard {
+  background-color: #ffecb3;
+} /* Light yellow */
+.premium {
+  background-color: #f8bbd0;
+} /* Light pink */
+
+/* Plan title */
+.plan h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Price */
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Feature list */
+.features {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  padding: 8px 0;
+  border-top: 1px solid #ccc;
+}
+
+/* Hover effect */
+.plan:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+  background-color: #ffffff;
+}
+
+/* Button styling */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .pricing-table {
+    flex-direction: column;
+    align-items: center;
+  }
+}

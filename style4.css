@@ -1,0 +1,21 @@
+ul {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 15px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
